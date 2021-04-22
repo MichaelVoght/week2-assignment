@@ -54,7 +54,7 @@ h1 span {
 }
 
 h3 {
-  margin: 0.25em 0 0 0;
+  margin: 0.25em 0;
 }
 
 p {
@@ -65,4 +65,65 @@ p {
 .footer {
   position: absolute;
   bottom: 0;
+  font-size: x-small;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 0.3em;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.footer .content .author-name {
+  padding: 0.5em 0;
+  display: block;
 }

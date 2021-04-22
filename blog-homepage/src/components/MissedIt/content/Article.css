@@ -1,0 +1,26 @@
+.missed-it .article-image img {
+  height: 115px;
+}
+
+.missed-it .container {
+  height: 150px;
+}
+
+.missed-it .container .header {
+  display: flow-root;
+  color: #919191;
+}
+
+.missed-it .container .header .preview {
+  float: left;
+  display: flex;
+  padding: 0.5em 0;
+}
+
+.missed-it .container .header .preview .preview-text {
+  padding: 0 0.5em;
+}
+
+.missed-it .container .footer {
+  width: inherit;
+}

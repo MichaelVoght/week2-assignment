@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Articles from "../Shared/Articles/Articles";
+import Articles from "./content/Articles";
 import yourArticles from "../../assets/data/your-articles.json";
 
 class ForYou extends Component {
@@ -9,7 +9,7 @@ class ForYou extends Component {
         <h1>
           <span>For you</span>
         </h1>
-        <Articles articles={yourArticles} articlesPerRow="2" />
+        <Articles articles={yourArticles} articlesPerRow={2} />
       </div>
     );
   }

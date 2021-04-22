@@ -1,0 +1,40 @@
+.article {
+  border: 0.1em solid #e7e5e5;
+}
+
+.article-image {
+  padding: 0;
+}
+
+.article-image img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+
+.author-image img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.for-you .container .header {
+  display: flow-root;
+  color: #919191;
+}
+
+.for-you .container .header .audio {
+  float: left;
+  display: flex;
+}
+
+.for-you .container .header .audio .audio-text {
+  padding: 0 0.5em;
+}
+
+.for-you .container .header .preview {
+  float: right;
+}
+
+.for-you .container .header .preview .preview-text {
+  display: none;
+}
